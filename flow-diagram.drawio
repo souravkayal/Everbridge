@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2023-08-17T06:33:48.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Fh8KKm2WRwt14uFIvsCh" version="21.6.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="460" width="490" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="210" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-0" value="Postman/Producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="280" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-1" value="ASP.NET API to upload file to Azure CogAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="280" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YB1HKHJh2YsUbeVkpD9_-0" target="YB1HKHJh2YsUbeVkpD9_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="680" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-3" value="Azure Cognitive API" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="70" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.564;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="638.96" y="281" as="sourcePoint" />
+            <mxPoint x="638" y="163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-6" value="Event Hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="280" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.007;exitY=0.42;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YB1HKHJh2YsUbeVkpD9_-1" target="YB1HKHJh2YsUbeVkpD9_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="800" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-8" value="Web Client" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YB1HKHJh2YsUbeVkpD9_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="750" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="875" y="440" />
+              <mxPoint x="750" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-10" value="Console Client" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.62;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YB1HKHJh2YsUbeVkpD9_-6" target="YB1HKHJh2YsUbeVkpD9_-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="680" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="893" y="440" />
+              <mxPoint x="1007" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-13" value="Edge device / Gate Sensor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-15" value="Event Subscriber" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="654" y="760" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-16" value="Node Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YB1HKHJh2YsUbeVkpD9_-16" target="YB1HKHJh2YsUbeVkpD9_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="670" as="sourcePoint" />
+            <mxPoint x="680" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-18" value="Socket IO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="595" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-19" value="Event Hub Subscriber" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="585" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YB1HKHJh2YsUbeVkpD9_-20" value="&lt;h1&gt;Human face detector at gate&lt;/h1&gt;&lt;p&gt;Flowchart of a human face detector program using Azure congnitive API&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="90" width="290" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

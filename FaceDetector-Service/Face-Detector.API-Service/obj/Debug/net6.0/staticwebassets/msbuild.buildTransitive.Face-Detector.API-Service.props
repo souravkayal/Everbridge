@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Face-Detector.API-Service.props" />
+</Project>

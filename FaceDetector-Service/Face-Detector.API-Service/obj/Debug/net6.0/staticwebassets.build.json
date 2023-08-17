@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F6LspZJ/9ye9YfTPAYzagDT3au8FTV472OpnQgcESg8=",
+  "Source": "Face-Detector.API-Service",
+  "BasePath": "_content/Face-Detector.API-Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
